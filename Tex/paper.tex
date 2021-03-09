@@ -25,7 +25,6 @@ Features with more than 50\% missing values were dropped (e.g."pctsomecol18\_24"
 \subsection{Training and test data sets} \label{secsplit}
 The original data was split in training and testing data set. As advised in \cite{bibDangeti2017},  20\% of the data was randomly selected for testing, the remaining data was assigned to training.
 
-
 \section{Pre-processing steps} \label{secpre}
 An exploratory data analysis (EDA) that comprised correlation and distribution analysis was performed on the training data set to inform model selection. Figure \ref{fig:corr} depicts the correlation matrix. Multiple variables show a strong correlation within them. As an example, the mean per capita cancer mortalities has a positive relationship with the median income per county. As per Figure \ref{fig:corr}, the median income per county is highly correlated multiple variables as well. This indicates that we should perform feature selection before implementing a model.
 
@@ -137,28 +136,23 @@ Logarithmic transformation of numerical variables significantly increase the per
 
 This project had limitation in the gathering of additional information. We recommend further work focused on collecting additional features.
 
+
 %%%%%%%%%%% References%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{thebibliography}{100} % 100 is a random guess of the total number of %references
 
 \bibitem{bibdata}
-Linear Regression Exercise 1: Data word,
-\\\texttt{https://data.world/exercises/linear-}
-\\\texttt{regression-exercise-1/workspace/}
-\\\texttt{file?filename=cancer_reg.csv}
+Linear Regression Exercise 1: Data word
 
 \bibitem{bibdatadict} 
 Linear Regression Exercise 1- metadata: Data word,\texttt{https://data.world/exercises/linear}
-\texttt{-regression-exercise-1/workspace/data}
-\\\texttt{-dictionary}
 
 \bibitem{bibDangeti2017} Dangeti, Pratap, ``Statistics for Machine Learning: Techniques for Exploring Supervised, Unsupervised, and Reinforcement Learning Models with Python and R," 2017, \emph{Packt Publishing}
 
 \bibitem{bibBanerjee20}
 Banerjee, Writuparna,``Train/Test Complexity and Space Complexity of Linear Regression," 2020,\texttt{https://levelup.gitconnected.com/}
-\\\texttt{train-test-complexity-and-space-complex}
-\\\texttt{ity-of-linear-regression-26b604dcdfa3}
 
 \end{thebibliography}
 %%%%%%%%%%%%% end %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \end{document}
